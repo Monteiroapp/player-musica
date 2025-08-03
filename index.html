@@ -16,6 +16,10 @@
   h1 {
     margin-bottom: 20px;
     font-size: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
   }
   .player {
     background: #2a2a3d;
@@ -156,7 +160,12 @@
 </script>
 </head>
 <body>
-  <h1>🎶 Player de Música PWA</h1>
+  <h1>
+    <img src="fone-de-ouvido.png" 
+         alt="Ícone Player"
+         style="width:80px; height:80px;">
+        Player de Música PWA
+  </h1>
 
   <div class="player">
     <img id="capaMusica" class="cover" src="https://via.placeholder.com/250x250?text=Capa+Indisponível" alt="Capa do Álbum" />
@@ -190,7 +199,7 @@
   <script src="https://cdn.jsdelivr.net/npm/jsmediatags@3.9.7/dist/jsmediatags.min.js"></script>
   <script>
     const audio = document.getElementById("audio");
-    audio.volume = 1; // força sempre volume máximo (resto é controlado pelo celular)
+    audio.volume = 1; // sempre no máximo, controlado pelo celular
 
     const musicaTitulo = document.getElementById("musicaTitulo");
     const capaMusica = document.getElementById("capaMusica");
@@ -336,3 +345,5 @@
   </script>
 </body>
 </html>
+
+
