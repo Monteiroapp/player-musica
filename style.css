@@ -1,0 +1,26 @@
+body { font-family: 'Roboto', sans-serif; margin: 0; background-color: #f4f6f8; }
+.container { display: flex; width: 100%; }
+.sidebar { background-color: #021a35; color: white; padding: 20px; min-width: 230px; height: 100vh; }
+.sidebar h2 { margin: 0; }
+.sidebar ul { list-style: none; padding: 0; margin: 20px 0; }
+.sidebar a { color: white; text-decoration: none; display: block; padding: 10px; }
+.sidebar a:hover { background-color: #00ffaad8; transition: 1s; }
+.main-content { padding: 30px; flex: 1; background-color: #ecf0f1; }
+.hidden { display: none; }
+form label { display: block; margin: 10px 0; }
+input, select { width: 100%; padding: 8px; margin-top: 5px; }
+button { padding: 10px 14px; margin-top: 10px; border: none; border-radius: 4px; font-size: 16px; cursor: pointer; color: white; }
+.btn-save { background-color: #2ecc71; }
+.btn-save:hover { background-color: #27ae60; }
+.btn-update { background-color: #f39c12; }
+.btn-update:hover { background-color: #d68910; }
+.btn-search { background-color: #3498db; }
+.btn-search:hover { background-color: #2980b9; }
+.btn-delete { background-color: #e74c3c; }
+.btn-delete:hover { background-color: #c0392b; }
+.btn-excel { background-color: #27ae60; }
+.btn-pdf { background-color: #d35400; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
+table th, table td { border: 1px solid #ddd; padding: 8px; }
+table th { background: #34495e; color: white; }
+.top-buttons { margin-bottom: 15px; display: flex; gap: 10px; }
